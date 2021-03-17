@@ -1,0 +1,45 @@
+<!-- Describe task in general -->
+
+<p>
+    Vérifiez si une chaîne donnée a tous les caractères en majuscules. Si la chaîne est vide ou ne contient aucune lettre, la fonction doit renvoyer Vrai (True).
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Entrée: </strong> Une chaîne de caractère.
+</p>
+
+<p>
+    <strong>Sortie: </strong> un booléen. 
+</p>
+
+
+<!-- Give some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Exemple:</strong>
+    </p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">isAllUpper('ALL UPPER') == true
+isAllUpper('all lower') == false
+isAllUpper('mixed UPPER and lower') == false
+isAllUpper('') == true
+isAllUpper('444') == true
+isAllUpper('55 55 5') == true
+</pre>
+{% else %}
+<pre class="brush: python">is_all_upper('ALL UPPER') == True
+is_all_upper('all lower') == False
+is_all_upper('mixed UPPER and lower') == False
+is_all_upper('') == True
+is_all_upper('444') == True
+is_all_upper('55 55 5') == True
+</pre>
+{% endif %}
+</div>
+
+<p>
+    <strong>Condition préalable:</strong>
+    <i>a-z, A-Z, 1-9 et des espaces</i>
+</p>
